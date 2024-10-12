@@ -213,8 +213,8 @@ def ship_hit(ai_settings, stats, screen, ship, aliens, bullets):
         create_fleet(ai_settings, screen, ship, aliens)
         ship.center_ship()
 
-         #faz uma pausa
-        sleep(0.1)
+        #  #faz uma pausa
+        # sleep(0.1)
     else:
         stats.game_active = False
         pygame.mouse.set_visible(True)
